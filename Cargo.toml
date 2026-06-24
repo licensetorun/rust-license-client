@@ -1,0 +1,17 @@
+[package]
+name = "licensetorun-license-client"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.70"
+description = "Client for Licensetorun.com — activate, validate, swap and check updates for your licensed product."
+license = "MIT"
+repository = "https://github.com/licensetorun/rust-license-client"
+homepage = "https://licensetorun.com"
+documentation = "https://docs.rs/licensetorun-license-client"
+readme = "README.md"
+keywords = ["license", "licensing", "activation", "saas", "sdk"]
+categories = ["api-bindings"]
+
+[dependencies]
+ureq = "2"
+serde_json = "1"
